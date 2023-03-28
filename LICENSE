@@ -1,4 +1,4 @@
-`cssmin.py` - A Python port of the YUI CSS compressor.
+`cssminx.py` - A fork of a Python port of the YUI CSS compressor.
 
 Copyright (c) 2023 LEKO LABS
 
@@ -25,7 +25,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-This software is a fork of a Python module of the same name,
+This software is a fork of a Python module of the name `cssmin`,
 originally developed by @zacharyvoase (Zachary Voase).
 The original repository can be found at
 [this link](https://github.com/zacharyvoase/cssmin).
@@ -36,8 +36,6 @@ and experimental features built into it.
 More informations about the licenses of the `cssmin`
 by Zachary Voase and the original `yuicompressor`, from which
 the module was ported to into Python, can be found below.
-
----
 
 > Copyright (c) 2010 Zachary Voase
 > 

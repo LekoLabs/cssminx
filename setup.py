@@ -8,12 +8,12 @@ if sys.version_info < (2, 6) or (3, 0) <= sys.version_info < (3, 6):
     sys.exit("Sorry, Python version 2.6 and 3.0-3.5 are not supported.")
 
 setup(
-    name             = 'cssmin',
+    name             = 'cssminx',
     version          = '0.2.0',
     author           = "LEKO LABS",
-    url              = 'https://github.com/LekoLabs/cssmin',
+    url              = 'https://github.com/LekoLabs/cssminx',
     description      = "A Python port of the YUI CSS compression algorithm.",
-    py_modules       = ['cssmin'],
+    py_modules       = ['cssminx'],
     package_dir      = {'': 'src'},
-    entry_points     = {'console_scripts': ['cssmin = cssmin:main']},
+    entry_points     = {'console_scripts': ['cssminx = cssminx:main']},
 )
